@@ -5,17 +5,25 @@
 
 ## 参数设置
 参数位于parameters.py文件中
+
 下载数据集 https://drive.google.com/open?id=1e7R76s6vwUJxILOcAsthgDLPSnOrQ49K
 
 DISCRIMINATOR：使用判别器
+
 ATTENTIVE_DISCRIMINATOR：使用注意力判别器
+
 ATTENTIVE_AUTOENCODER：使用带有注意力机制的自编码器
 
 TRAIN_PATH, EVAL_PATH, TEST_PATH：数据集目录
+
 BATCH_SZ：每个batch中的图片数目
+
 THETA, GAMMA, LAMBDA：论文中模型的超参数
+
 LR：学习率
+
 ITERATION：LSTM中单元个数
+
 EPOCHES：训练时的epoch个数
 
 MODEL_PATH：测试模型性能时模型的位置
